@@ -1,0 +1,94 @@
+/* styling of only header part(nav tab)*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    width:100vw;
+   
+
+}
+.head-con1{
+    background-color:rgba(11, 98, 122,0.8);
+    width:100vw;
+    height:10vh;
+    display:block;
+}
+
+
+.hea-icon1{
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    color:white;
+    position:relative;
+    left:calc(100vw - 1087px);
+    top:calc(10vh - 42px);
+}
+.head-dv1{
+  color:white;
+  font-family:Geneva, Verdana, sans-serif;
+  position:relative;
+  display:inline-block;
+ left:15vw;
+  top:calc(10vh - 42px);
+  
+}
+.head-dv2{
+    color:white;
+    font-family:Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    position:relative;
+    display:inline-block;
+    left:calc(100vw - 600px);
+    top:calc(10vh - 42px);
+
+ 
+    
+}
+.head-dv3{
+    color:white;
+    display:inline-block;
+    font-family:Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    position:relative;
+    left:calc(100vw - 550px);
+    top:calc(10vh - 42px);
+   
+}
+.head-dv4{
+    color:white;
+    font-family:Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    display:inline-block;
+    position:relative;
+    left:calc(100vw - 500px);
+    top:calc(10vh - 42px);
+  }
+  .head-dv5{
+    color:yellow;
+    border-color:yellow;
+    border-radius:10px;
+    border-width:1px;
+    border-style:solid;
+    display:inline-block;
+    font-family:Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    font-size:7px;
+    padding:3px;
+    position:relative;
+    left:calc(100vw - 450px);
+    top:calc(10vh - 42px);
+
+
+}
+@media only screen and (max-width:720px){
+  .head-dv1~div{
+    display:none;
+ }
+
+}

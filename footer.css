@@ -1,0 +1,54 @@
+.f-div{
+    width:100%;
+ 
+    display:grid;
+    grid-template-columns:400px repeat(2,1fr);
+    grid-template-rows:150px 80px;
+    color:white;
+    background-color:black;
+    justify-items:center;
+    align-items:center;
+}
+#f1,#f2,#f3{
+    font-family:Geneva, Verdana, sans-serif;
+    font-size:1.2rem;
+    line-height:27px;
+}
+#f1,#f3{
+    color:white;
+}
+#f2{
+    color:yellow;
+}
+#f4{
+    line-height:30px;
+}
+#f4,#f5,#f6,#f7,#f9,#f12,#f21,#f22,#f23{
+    color:grey;
+    font-family:verdana;
+    font-size:8px;
+    font-weight:bold;
+}
+#f6{
+    color:yellow;
+}
+#f8{
+    
+    color:yellow;
+  }
+  #f22{
+    border:1px solid grey;
+    border-radius:50%;
+   vertical-align:bottom;
+    /* padding:2px; */
+    
+    display:inline-block;
+  }
+  .c-fdiv5{
+    justify-self:start;
+    padding-left:90px;
+    
+  }
+  .c-fdiv6{
+    padding-right:90px;
+  }
